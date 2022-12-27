@@ -1,0 +1,97 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+#title{
+  background-color: hotpink;
+}
+h1{
+  font-family: serif;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+/* rotating the phone image by 25 degrees */
+.title-image{
+width: 40%;
+  transform: rotate(25deg);
+  position: relative;
+  top: 200px;
+  right: -10%;
+
+}
+.check-circle{
+  width: auto;
+}
+
+/* features section  with padding and text aligned*/
+#features{
+padding: 7% 15%;
+text-align: center;
+background-color: #fff;
+position: relative;
+
+}
+/* changing the color of the font awesome logos  */
+.icon{
+  color: #ef8172;
+  
+}
+/* pseudoclasss for hovering over the bttons */
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+  background-color: #ff4c68;
+}
+.dog-image{
+  padding-top: 20px;
+  width: 200px;
+  border-radius: 100%;
+}
+#press{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 15px;
+  
+}
+.body-img{
+  width:200px
+   ;
+}
+
+#pricing{
+text-align: center;
+
+}
+.rating{
+  background-color: gray;
+  color: #fff;
+}
+#cta{
+  text-align: center;
+  background-color:  #ff4c68;
+  padding: 7% 15%;
+}
+
+#footer{
+  text-align: center;
+   background-color: #fff;
+
+}
+@media(max-width: 980px){
+  #title{
+    text-align: center;
+  }
+  
+.title-image{
+position: static;
+transform: rotate(0);
+padding-top: 20px;
+}
+
+}
